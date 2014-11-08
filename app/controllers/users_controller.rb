@@ -48,6 +48,14 @@ class UsersController < ApplicationController
     end
   end
 
+  def game
+    @user = User.find(params[:id])
+       
+        render template: 'users/game'
+  
+    
+  end
+
   private
 
   def user_params

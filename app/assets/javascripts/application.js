@@ -121,5 +121,7 @@ $(document).ready(function() {
     $(".star-info").toggle();
   })
 
+  $(".rock").addClass('gameBounce');
+
 
 });

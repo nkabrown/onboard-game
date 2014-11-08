@@ -1,0 +1,29 @@
+@-webkit-keyframes gameBounce {
+  0% { 
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px)
+  }
+  60% {
+    opacity:1;
+    -webkit-transform: translateY(1em);
+    transform: translateY(1em)
+  }
+  80% {
+    -webkit-transform: translateY(-0.5em);
+    transform: translateY(-0.5em);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.rock, .scissors, .paper {
+  display: none;
+}
+
+.rock {
+  
+}
+
